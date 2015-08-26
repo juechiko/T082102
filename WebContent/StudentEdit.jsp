@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>這是我的練習</title>
 </head>
 <%
 String s = request.getParameter("id");
@@ -30,6 +30,7 @@ else
 
 %>
 <body>
+<p>This is a Edit Page</p>
 <form name="student" action="StudentEditCode.jsp" method="post">
 <input type="hidden" name="student_id" value="<% out.print(stu.student_id); %>" />
 <p>Student Name:<input type="text" name="student_name" value="<% out.print(stu.student_name); %>" /></p>
